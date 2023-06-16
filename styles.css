@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background-image: url(./images/header-bg-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  padding: 64px 120px;
+  background-color: #e8eff9;
+}
+
+.menu__top {
+  display: flex;
+  justify-content: space-between;
+}
